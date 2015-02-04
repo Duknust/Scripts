@@ -1,0 +1,20 @@
+README
+
+This works for bachelor and master just needs to find and replace "LEI" with your bachelor's name and MEI with your master's name.
+
+There is an example (example.txt) with the schema. Un are classes from bachelor and AUn are classes from master. Numbers are the grade to that classes and finally y/n are just a info, if it has been ​​improved.
+
+ex.
+Classe-Grade-y
+
+./script.sh example.txt bg
+Shows your best grades
+
+./script.sh example.txt wg
+Shows your worst grades
+
+./script.sh example.txt
+Shows your actual avg
+
+./script.sh example.txt all
+Shows all info said before
