@@ -1,0 +1,19 @@
+README
+
+This is a toDo list.
+There is an example (example.txt) with the schema. First number is the index (must be unique and the script manage it by itself). Second numbers are the date in format YYYYMMDD. After that appears the class name and in the end is the status if it is done (y) or not (n).​​
+
+ex.
+Index-Date-Class-Message-y
+
+./toDo.sh example.txt a
+This provides a new entry (steps will be asked)
+
+./toDo example.txt c
+This marks an entry as done
+
+./toDo.sh example.txt ld [DATE]
+This lists all entries that have the date of input
+
+./toDo.sh example.txt luc [Class]
+This lists all entries that have the class of input

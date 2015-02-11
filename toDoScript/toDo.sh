@@ -100,5 +100,12 @@ if [ "$#" -gt 1 ]; then
             fi
         done < "$filename"
     fi
+else 
+    echo "You must provide arguments"
+    echo "  a - to add new entry"
+    echo "  c - to complete an entry"
+    echo "  ld - list entries by date"
+    echo "  luc - list entries by class"
 fi
+
 
