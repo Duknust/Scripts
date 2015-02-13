@@ -173,7 +173,7 @@ if [ "$#" -ge 2 ]; then
                 if [ ${array[0]} == $3 ]; then
                     array[1]=$newGrade
                 fi
-            newLine=${array[0]}"-"${array[1]}
+            newLine=${array[0]}"-"${array[1]}"-"${array[2]}
             echo $newLine >> tmp.txt
         done < "$filename"
         rm -f $1
