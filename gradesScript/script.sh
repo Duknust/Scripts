@@ -1,3 +1,5 @@
+#created by duknust
+#find in https://github.com/Duknust
 #!/bin/bash
 
 filename="$1"
